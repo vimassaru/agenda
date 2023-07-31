@@ -119,7 +119,7 @@
   ],
   "python.pythonPath": "/opt/homebrew/bin/python3",
   "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-  "python.linting.flake8Enabled": false,
+  "python.linting.flake8Enabled": true,
   "python.testing.unittestEnabled": false,
   "python.linting.mypyEnabled": true,
   "python.showStartPage": false,

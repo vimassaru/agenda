@@ -1,0 +1,23 @@
+{% extends 'global/base.html' %}
+
+{% block content %}
+  <section class="card">
+    <div class="card-content">
+      <p class="title is-3"> Contact </p>
+      <p class="subtitle is-5">
+        {{ contact.first_name }} {{ contact.last_name }}
+      </p>
+
+      <div class="content">
+        
+        <p><strong>ID: </strong> {{ contact.id }} </p>
+        <p><strong>E-mail: </strong> {{ contact.email }} </p>
+        <p><strong>Phone: </strong> {{ contact.phone }} </p>
+        <p><strong>Created At: </strong> {{ contact.created_date }} </p>
+        <p><strong>Description: </strong> {{ contact.description }} </p>
+        <p><strong>Category: </strong> {{ contact.category.name }} </p>
+      </div>
+    </div>
+  </section>
+
+{% endblock content %}
